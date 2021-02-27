@@ -1,7 +1,7 @@
 <h1 class="code-line" data-line-start=0 data-line-end=1 ><a id="___0"></a>Исследование временных рядов</h1>
 <h3 class="code-line" data-line-start=5 data-line-end=6 ><a id="CatBoost_5"></a>CatBoost</h3>
 <p class="has-line-data" data-line-start="7" data-line-end="9">Библиотека от <a href="https://catboost.ai/">Yandex</a>, которая неплохо работает с категориальными признаками. Алгоритм обучения построен на градиентном бустинге деревьев.<br>
-Для прогнозирования временных рядов часто используют кат. признаки, непосредственно получающее из временного отрезка, на которых делается обучение и прогнозирование ряда.</p>
+Для прогнозирования временных рядов часто используют кат. признаки, непосредственно получающиеся из временного отрезка, на которых делается обучение и прогнозирование ряда.</p>
 <h3 class="code-line" data-line-start=12 data-line-end=13 ><a id="fbProphet_12"></a>fbProphet</h3>
 <p class="has-line-data" data-line-start="14" data-line-end="15">Библиотека от <a href="https://facebook.github.io/prophet/">Faceebook</a>, созданная специально для прогнозирования временных рядов. Имеет не так много настроек, но за счет добавления доп. регрессоров в модель, может легко выигрывать у catBoost за счет поиска тренда и сезонных состовляющих.</p>
 <h3 class="code-line" data-line-start=16 data-line-end=17 ><a id="DeepAr_16"></a>DeepAr</h3>
